@@ -2,23 +2,29 @@ name: pojianshisi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
-
-jobs:  # 1393
+    - cron: '14 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pojianshisi
         env:
-          stnln45: ${{ secrets.stnln45 }}
+          mb3: ${{ secrets.mb3 }}
         run: |
-          echo $stnln45 | jq -r .y224 | /bin/bash
-          echo $qx20 | jq -r .eh01 | /bin/bash
-          echo $k622 | jq -r .pdl2002 | /bin/bash
-          echo $meqai0 | jq -r .v3 | /bin/bash
-          echo $vwys94 | jq -r .kn97313 | /bin/bash
-          echo $jh104 | jq -r .ypw8 | /bin/bash
-          echo $tilj7 | jq -r .lj22546 | /bin/bash
-          echo $sk0 | jq -r .nghg704 | /bin/bash
+          echo $mb3 | jq -r .buym31642 | /bin/bash
+          echo $lmz904 | jq -r .tn5 | /bin/bash
+          echo $b412 | jq -r .hsoj33864 | /bin/bash
+          echo $ohsm6409 | jq -r .o97 | /bin/bash
+          echo $ysjn091 | jq -r .awj6746 | /bin/bash
+          echo $frgb906 | jq -r .jjqwk923 | /bin/bash
+          echo $sg32 | jq -r .ow1 | /bin/bash
+          echo $ldyoc810 | jq -r .ly13 | /bin/bash
+          echo $ggjm52168 | jq -r .ftr093 | /bin/bash
+          echo $jct7888 | jq -r .r20089 | /bin/bash
+          echo $gjdl6445 | jq -r .g26 | /bin/bash
+          echo $idr809 | jq -r .xilm4540 | /bin/bash
+          echo $s3097 | jq -r .pmebe56 | /bin/bash
+          echo $wt70 | jq -r .r782 | /bin/bash
 
