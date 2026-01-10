@@ -1,8 +1,9 @@
 name: pojianshisi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '37 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,20 +12,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: pojianshisi
         env:
-          mb3: ${{ secrets.mb3 }}
+          zglih632: ${{ secrets.zglih632 }}
         run: |
-          echo $mb3 | jq -r .buym31642 | /bin/bash
-          echo $lmz904 | jq -r .tn5 | /bin/bash
-          echo $b412 | jq -r .hsoj33864 | /bin/bash
-          echo $ohsm6409 | jq -r .o97 | /bin/bash
-          echo $ysjn091 | jq -r .awj6746 | /bin/bash
-          echo $frgb906 | jq -r .jjqwk923 | /bin/bash
-          echo $sg32 | jq -r .ow1 | /bin/bash
-          echo $ldyoc810 | jq -r .ly13 | /bin/bash
-          echo $ggjm52168 | jq -r .ftr093 | /bin/bash
-          echo $jct7888 | jq -r .r20089 | /bin/bash
-          echo $gjdl6445 | jq -r .g26 | /bin/bash
-          echo $idr809 | jq -r .xilm4540 | /bin/bash
-          echo $s3097 | jq -r .pmebe56 | /bin/bash
-          echo $wt70 | jq -r .r782 | /bin/bash
+          echo $zglih632 | jq -r .wcdn3 | /bin/bash
+          echo $sx19690 | jq -r .bnuwz3 | /bin/bash
+          echo $mv06 | jq -r .rc9 | /bin/bash
+          echo $jooq59 | jq -r .gncb025 | /bin/bash
+          echo $b1240 | jq -r .d5881 | /bin/bash
+          echo $g4 | jq -r .libpj0935 | /bin/bash
+          echo $e5707 | jq -r .gmfq561 | /bin/bash
+          echo $pjh21741 | jq -r .ukw33408 | /bin/bash
+          echo $qfaj620 | jq -r .cgn7970 | /bin/bash
+          echo $uvz366 | jq -r .kyfeg3294 | /bin/bash
+          echo $g72 | jq -r .mgo84 | /bin/bash
+          echo $nyqvo5126 | jq -r .inz1409 | /bin/bash
+          echo $xzviq84 | jq -r .i1 | /bin/bash
+          echo $q4161 | jq -r .hxsht7535 | /bin/bash
 
